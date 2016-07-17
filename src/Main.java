@@ -1,15 +1,10 @@
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.plot.PiePlot;
-import org.jfree.chart.plot.Plot;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.Random;
 
 
 public class Main extends JFrame implements Runnable{
-    
-    private Screen screen;
+
     private  PingAnalyzer pingAnalyzer;
     public static void main(String[] args){
        new Main().init();
